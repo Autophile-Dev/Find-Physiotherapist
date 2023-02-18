@@ -1,0 +1,73 @@
+.form-main{
+    padding: 100px 10px 100px 10px;
+}
+.form-main .header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(29, 184, 88);
+    font-family: 'Montserrat', sans-serif;
+}
+.form-main .form-contain .labels{
+    color: rgb(29, 184, 88);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; 
+    margin-right: 15px;
+    font-weight: bold;
+}
+.form-main .form-contain .gender-labels{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;   
+    margin-right: 15px;
+    color: #6d6c6cd6;   
+}
+.form-control{
+    color: #6d6c6cd6;
+    font-size: 16px;
+}
+.btn-sbmt{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* .btn-reg{
+    width: 300px;
+    height: 60px;
+    background-color: rgb(29, 184, 88);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    border: none;
+}
+.btn-reg:hover{
+    background-color: rgb(69, 206, 11);
+} */
+.link{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.link-text{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #6d6c6cd6;
+}
+a{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(29, 184, 88);
+}
+a:hover{
+    color: rgb(29, 184, 88);
+}
+
+.error{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}

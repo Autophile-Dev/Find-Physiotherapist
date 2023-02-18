@@ -1,0 +1,336 @@
+/* Navigation */
+nav
+{
+    padding: 27px 0px; 
+    background-color: white; 
+    border-bottom: 3px solid rgb(29, 184, 88);
+}
+nav .navigation-logo .logo
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(29, 184, 88);
+    font-family: 'Montserrat', sans-serif;
+}
+nav .navigation-menu a
+{
+    font-size: 14px;
+    padding: 15px 10px;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    color: #6d6c6cd6;
+}
+nav .navigation-menu a:hover{
+    background-color: rgb(69, 206, 11);
+    color: white;
+    border-radius: 4px;
+}
+@media(max-width: 1200px)
+{
+    nav .navigation-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+/* Navigation */
+/* Home Body */
+.background img{
+    overflow: hidden;
+    position: absolute;
+    background-size: cover;
+    height: 880px;
+    width: 100%;
+    opacity: 0.1;
+    /* filter: blur(4px);
+  -webkit-filter: blur(4px); */
+}
+.home-head{
+    margin-top: 80px;
+    font-size: 80px;
+    position: relative;
+    font-weight: bold;
+    color: #6d6c6cd6;
+    font-family: 'Montserrat', sans-serif;
+}
+.home-content{
+    line-height: 1.7;
+    color: #6d6c6cd6;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    max-width: 1246px;
+}
+.home-bold{
+    color: rgb(29, 184, 88);
+}
+/* Home Body */
+/* Contact Us */
+.contact-us
+{
+    padding: 80px 0px 80px 0px;
+    width: 100%;
+}
+.contact-us .contact-header
+{
+    font-size: 80px;
+    font-weight: bold;
+    color: #6d6c6cd6;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-header .contact{
+    color: rgb(29, 184, 88);
+}
+.contact-container .contact-content
+{
+    color: #6d6c6cd6;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+.contact-container a{
+    text-decoration: none;
+    color: #6d6c6cd6;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+.contact-container i{
+    color: rgb(29, 184, 88);
+}
+@media(max-width: 478px){
+    .contact-us .contact-header{
+        font-size: 50px;
+    }
+    .contact-container .contact-content{
+        font-size: 14px;
+    }
+    .contact-container a{
+        font-size: 14px;
+    }
+}
+/* Contact Us */
+/* About Us */
+.about-us
+{
+    padding: 80px 0px 80px 0px;
+    width: 100%;
+}
+.about-us .about-header
+{
+    font-size: 80px;
+    font-weight: bold;
+    color: #6d6c6cd6;
+    font-family: 'Montserrat', sans-serif;
+}
+.about-header .about {
+    color: rgb(29, 184, 88);
+}
+.bold-text{
+    color: rgb(29, 184, 88);
+}
+.about-content
+{
+    line-height: 1.7;
+    color: #6d6c6cd6;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    max-width: 1246px;
+}
+@media(max-width: 405px){
+    .about-us{
+        padding: 30px 10px 30px 10px;
+    }
+    .about-us .about-header{
+        font-size: 50px;
+    }
+    .about-content{
+        font-size: 14px;
+    }
+}
+/* About Us */
+/* Terms & Condition */
+.terms-and-condition-container
+{
+    padding: 80px 0px 80px 0px;
+    width: 100%;
+}
+.terms-and-condition-container .term-header
+{
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(29, 184, 88);
+    font-family: 'Montserrat', sans-serif;
+}
+.terms-and-condition-container .term-content
+{
+    color: #6d6c6cd6;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 1246px;
+}
+.terms-and-condition-container .terms{
+    list-style: none;
+    line-height: 1.7;
+}
+.terms-and-condition-container .terms li{
+    color: #6d6c6cd6;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    max-width: 1200px;
+}
+.terms-and-condition-container .terms li::before{
+    content: "\2022";
+    font-size: 16px;
+    color: rgb(29, 184, 88);
+}
+@media(max-width: 992px){
+    .terms-and-condition-container
+    {
+        padding: 40px 10px 40px 10px;
+    }
+    .terms-and-condition-container .term-header{
+        font-size: 50px;
+    }
+    .terms-and-condition-container .term-content{
+        font-size: 14px;
+    }
+    .terms-and-condition-container .terms li{
+        font-size: 14px;
+    }
+}
+@media(max-width: 768px){
+    .terms-and-condition-container .term-header{
+        font-size: 38px;
+    }   
+}
+@media(max-width: 430px){
+    .terms-and-condition-container .term-header{
+        font-size: 26px;
+    }  
+    .terms-and-condition-container .term-content{
+        font-size: 12px;
+    }
+    .terms-and-condition-container .terms li{
+        font-size: 12px;
+    } 
+}
+/* Terms & Condition */
+/* View Therapist & Request Therapist */
+
+.input-labels{
+    color: rgb(29, 184, 88);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; 
+    font-weight: bolder;  
+    margin-right: 15px;
+}
+p{
+    color: #6d6c6cd6;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+td{
+    color: #6d6c6cd6;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    
+}
+.table-head{
+    
+    color: rgb(29, 184, 88);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; 
+}
+.select, .request{
+    background-color: rgb(29, 184, 88);
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    border-radius: 4px;
+}
+.view-therapist, .physio-info{
+    padding: 40px 10px 40px 10px;
+}
+.rate {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 46px;
+    padding: 0 10px;
+}
+
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+/* View Therapist & Request Therapist */
+/* Patient Profile */
+
+
+.patient-profile{
+    padding: 80px 10px 80px 10px;
+    width: 100%;
+}
+.profile-asset{
+    color: rgb(29, 184, 88);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; 
+    font-weight: bold;
+}
+.profile{
+    max-width: 450px;
+}
+/* .update-btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} */
+
+
+.update-profile{
+    padding: 80px 10px 80px 10px;
+}
+/* Patient Profile */
+/* View Exercise */
+.link{
+    color: #6d6c6cd6;
+}
+/* View Exercise */
+/* Errors */
+.error{
+    width: 100%;
+    padding: 10px;
+    color: #a94442;
+    border: 1px solid #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+/* Errors */

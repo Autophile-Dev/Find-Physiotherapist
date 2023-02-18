@@ -1,0 +1,440 @@
+/* Navigation */
+nav
+{
+    padding: 27px 0px; 
+    background-color: white; 
+    border-bottom: 3px solid rgb(29, 184, 88);
+}
+nav .navigation-logo .logo
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(29, 184, 88);
+    font-family: 'Montserrat', sans-serif;
+}
+nav .navigation-menu{
+    display: flex;
+    gap: 8px;
+}
+nav .navigation-menu a
+{
+    font-size: 14px;
+    
+    padding: 10px 3px 10px 3px;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    color: #6d6c6cd6;
+}
+nav .navigation-menu a:hover{
+    background-color: rgb(69, 206, 11);
+    color: white;
+    border-radius: 4px;
+}
+@media(max-width: 1200px)
+{
+    nav .navigation-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+/* .background  img{
+    overflow: hidden;
+    position: absolute;
+    background-size: cover;
+    height: 880px;
+    width: 100%;
+    opacity: 0.1;
+    filter: blur(4px);
+  -webkit-filter: blur(4px);
+} */
+.home-head{
+    margin-top: 80px;
+    font-size: 80px;
+    position: relative;
+    font-weight: bold;
+    color: #6d6c6cd6;
+    font-family: 'Montserrat', sans-serif;
+}
+.home-content{
+    line-height: 1.7;
+    color: #6d6c6cd6;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    max-width: 1246px;
+}
+.home-bold{
+    color: rgb(29, 184, 88);
+}
+/* Navigation */
+/* About us */
+.about-us
+{
+    padding: 80px 0px 80px 0px;
+    width: 100%;
+}
+.about-us .about-header
+{
+    font-size: 80px;
+    font-weight: bold;
+    color: #6d6c6cd6;
+    font-family: 'Montserrat', sans-serif;
+}
+.about-header .about {
+    color: rgb(29, 184, 88);
+}
+.bold-text{
+    color: rgb(29, 184, 88);
+}
+.about-content
+{
+    line-height: 1.7;
+    color: #6d6c6cd6;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    max-width: 1246px;
+}
+@media(max-width: 405px){
+    .about-us{
+        padding: 30px 10px 30px 10px;
+    }
+    .about-us .about-header{
+        font-size: 50px;
+    }
+    .about-content{
+        font-size: 14px;
+    }
+}
+/* About us */
+/* Contact us */
+.contact-us
+{
+    padding: 80px 0px 80px 0px;
+    width: 100%;
+}
+.contact-us .contact-header
+{
+    font-size: 80px;
+    font-weight: bold;
+    color: #6d6c6cd6;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-header .contact{
+    color: rgb(29, 184, 88);
+}
+.contact-container .contact-content
+{
+    color: #6d6c6cd6;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+.contact-container a{
+    text-decoration: none;
+    color: #6d6c6cd6;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+.contact-container i{
+    color: rgb(29, 184, 88);
+}
+@media(max-width: 478px){
+    .contact-us .contact-header{
+        font-size: 50px;
+    }
+    .contact-container .contact-content{
+        font-size: 14px;
+    }
+    .contact-container a{
+        font-size: 14px;
+    }
+}
+/* Contact us */
+/* Terms & conditions */
+.terms-and-condition-container
+{
+    padding: 80px 0px 80px 0px;
+    width: 100%;
+}
+.terms-and-condition-container .term-header
+{
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(29, 184, 88);
+    font-family: 'Montserrat', sans-serif;
+}
+.terms-and-condition-container .term-content
+{
+    color: #6d6c6cd6;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 1246px;
+}
+.terms-and-condition-container .terms{
+    list-style: none;
+    line-height: 1.7;
+}
+.terms-and-condition-container .terms li{
+    color: #6d6c6cd6;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    max-width: 1200px;
+}
+.terms-and-condition-container .terms li::before{
+    content: "\2022";
+    font-size: 16px;
+    color: rgb(29, 184, 88);
+}
+@media(max-width: 992px){
+    .terms-and-condition-container
+    {
+        padding: 40px 10px 40px 10px;
+    }
+    .terms-and-condition-container .term-header{
+        font-size: 50px;
+    }
+    .terms-and-condition-container .term-content{
+        font-size: 14px;
+    }
+    .terms-and-condition-container .terms li{
+        font-size: 14px;
+    }
+}
+@media(max-width: 768px){
+    .terms-and-condition-container .term-header{
+        font-size: 38px;
+    }   
+}
+@media(max-width: 430px){
+    .terms-and-condition-container .term-header{
+        font-size: 26px;
+    }  
+    .terms-and-condition-container .term-content{
+        font-size: 12px;
+    }
+    .terms-and-condition-container .terms li{
+        font-size: 12px;
+    } 
+}
+/* Terms & conditions */
+/* View Exercise */
+.form-control::placeholder{
+    color: #6d6c6cd6;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+}
+.btn-outline-success{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+/* View Exercise */
+/* View Patients */
+td{
+    color: #6d6c6cd6;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    
+}
+.patient-info{
+    padding: 80px 10px 80px 10px;
+}
+.table-head{
+    
+    color: rgb(29, 184, 88);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; 
+}
+.accept{
+    background-color: rgb(29, 184, 88);
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    border-radius: 4px;
+}
+.reject{
+    background-color: red;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    border-radius: 4px;
+}
+.view{
+    background-color: rgb(29, 184, 88);
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    border-radius: 4px;
+}
+.rate {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 46px;
+    padding: 0 10px;
+}
+p{
+    
+    color: #6d6c6cd6;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+/* View Patients */
+/* Profile */
+.profile-content{
+    display: flex;
+}
+.admin-profile{
+    padding: 80px 10px 80px 10px;
+    width: 100%;
+}
+.proile-asset{
+    color: rgb(29, 184, 88);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; 
+    font-weight: bold;
+}
+.profile{
+    max-width: 450px;
+}
+/* Profile */
+/* Add Time Slot */
+.time-slots{
+    padding: 80px 10px 80px 10px;
+}
+.add-exercise{
+    padding: 80px 10px 80px 10px;
+}
+select{
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(29, 184, 88);
+    border-radius: 4px;
+    padding: 8px;
+    font-family: 'Work Sans', sans-serif;
+    color:#6d6c6cd6 ;
+    font-size: 14px; 
+}
+.add-time-button{
+    background-color: rgb(29, 184, 88);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 280px;
+    height: 50px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+.add-exer-button{
+    background-color: rgb(29, 184, 88);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 280px;
+    height: 50px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+.del-rec{
+    background-color: red;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+}
+.del-rec:hover{
+    background-color: maroon;
+}
+.edt-rec{
+    background-color: skyblue;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    border-radius: 4px;
+}
+.edt-rec:hover{
+    background-color: rgb(67, 67, 223);
+}
+.link{
+    text-decoration: none;
+    color: #6d6c6cd6 ;
+}
+.add-btn{
+    margin-top: 190px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.input-labels{
+    color: rgb(29, 184, 88);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; 
+    margin-right: 15px;
+    font-weight: bolder;  
+}
+.input-text{
+    outline: none;
+    color: #6d6c6cd6;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+/* Add Time Slot */
+/* Response Page */
+.response{
+    padding: 80px 10px 80px 10px;
+}
+.res-btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.response-button{
+    background-color: rgb(29, 184, 88);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 280px;
+    height: 50px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+/* Response Page */
